@@ -99,9 +99,6 @@ main {
 }
 
 @media (min-width: 1080px) {
-    main {
-        height: 100vh;
-    }
     .showcase {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
