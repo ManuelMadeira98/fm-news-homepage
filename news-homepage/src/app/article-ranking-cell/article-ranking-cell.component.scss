@@ -1,0 +1,33 @@
+.cell {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1.25rem;
+
+    &--image {
+        max-width: 200px;
+    }
+
+    &--content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .ranking {
+            font-size: 2rem;
+            font-weight: var(--font-bold);
+            color: var(--clr-neutral-300);
+        }
+
+        .title {
+            color: var(--clr-neutral-900);
+            font-weight: var(--font-ex-bold);
+            font-size: 1rem;
+            margin: 0.8rem 0;
+
+            &:hover {
+                cursor: pointer;
+                color: var(--clr-primary-400);
+            }
+        }
+    }
+}

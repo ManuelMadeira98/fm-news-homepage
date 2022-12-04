@@ -1,0 +1,16 @@
+.article {
+    &--title {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: var(--clr-neutral-200);
+
+        &:hover {
+            cursor: pointer;
+            color: var(--clr-primary-300);
+        }
+    }
+
+    p {
+        color: var(--clr-neutral-300);
+    }
+}

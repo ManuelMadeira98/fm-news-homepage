@@ -1,0 +1,17 @@
+<div class="backdrop" [class.on]="menuIsOpen"></div>
+<nav class="nav">
+    <button
+        class="nav--menu-toggle"
+        [class.close]="menuIsOpen"
+        (click)="menuIsOpen = !menuIsOpen"
+    >
+    </button>
+
+    <ul class="nav--menu" [class.mobile]="menuIsOpen">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+    </ul>
+</nav>
